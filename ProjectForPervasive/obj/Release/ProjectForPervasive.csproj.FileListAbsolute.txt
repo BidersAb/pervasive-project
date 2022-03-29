@@ -1,0 +1,16 @@
+F:\ProjectForPervasive\ProjectForPervasive\bin\Release\ProjectForPervasive.exe.config
+F:\ProjectForPervasive\ProjectForPervasive\bin\Release\ProjectForPervasive.exe
+F:\ProjectForPervasive\ProjectForPervasive\bin\Release\ProjectForPervasive.pdb
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.csproj.AssemblyReference.cache
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.csproj.SuggestedBindingRedirects.cache
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.formDailySchedule.resources
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.Forms.TaskSchedule.resources
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.Properties.Resources.resources
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.csproj.GenerateResource.cache
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.csproj.CoreCompileInputs.cache
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.exe
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.pdb
+F:\ProjectForPervasive\ProjectForPervasive\bin\Release\Newtonsoft.Json.dll
+F:\ProjectForPervasive\ProjectForPervasive\bin\Release\Newtonsoft.Json.xml
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.Forms.WeatherForcast.resources
+F:\ProjectForPervasive\ProjectForPervasive\obj\Release\ProjectForPervasive.csproj.CopyComplete
