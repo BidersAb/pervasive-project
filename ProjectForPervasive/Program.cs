@@ -17,7 +17,7 @@ namespace ProjectForPervasive
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UserInformation());
+            Application.Run(new Login());
         }
     }
 }

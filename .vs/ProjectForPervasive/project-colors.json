@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ee05b635-2f35-4508-89bd-bbb7a417c8d3": {
+      "ProjectGuid": "ee05b635-2f35-4508-89bd-bbb7a417c8d3",
+      "DisplayName": "ProjectForPervasive",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
