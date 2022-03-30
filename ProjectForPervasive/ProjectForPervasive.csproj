@@ -51,6 +51,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\UserInformation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,14 +69,14 @@
     <Compile Include="Forms\WeatherForcast.Designer.cs">
       <DependentUpon>WeatherForcast.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\WeeklySchedule.cs">
+    <Compile Include="Forms\CalendarSchedule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\WeeklySchedule.Designer.cs">
-      <DependentUpon>WeeklySchedule.cs</DependentUpon>
+    <Compile Include="Forms\CalendarSchedule.Designer.cs">
+      <DependentUpon>CalendarSchedule.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Common.cs" />
-    <Compile Include="Model\DayilySchedule.cs" />
+    <Compile Include="Model\DailySchedule.cs" />
     <Compile Include="Forms\DailySchedule.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,11 +100,17 @@
     <EmbeddedResource Include="Forms\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\UserInformation.resx">
       <DependentUpon>UserInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\WeatherForcast.resx">
       <DependentUpon>WeatherForcast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CalendarSchedule.resx">
+      <DependentUpon>CalendarSchedule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+            this.components = new System.ComponentModel.Container();
             this.lastName = new System.Windows.Forms.Label();
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.txtAge = new System.Windows.Forms.TextBox();
@@ -47,6 +48,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnUserClear = new System.Windows.Forms.Button();
             this.btnUserCancel = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lastName
@@ -65,16 +68,18 @@
             // 
             this.txtFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtFirstName.Location = new System.Drawing.Point(252, 47);
-            this.txtFirstName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFirstName.Margin = new System.Windows.Forms.Padding(4);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(239, 30);
             this.txtFirstName.TabIndex = 1;
+            this.txtFirstName.TextChanged += new System.EventHandler(this.txtFirstName_TextChanged);
+            this.txtFirstName.Validating += new System.ComponentModel.CancelEventHandler(this.txtFirstName_Validating);
             // 
             // txtAge
             // 
             this.txtAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtAge.Location = new System.Drawing.Point(252, 159);
-            this.txtAge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAge.Margin = new System.Windows.Forms.Padding(4);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(239, 30);
             this.txtAge.TabIndex = 3;
@@ -95,7 +100,7 @@
             // 
             this.txtLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtLastName.Location = new System.Drawing.Point(252, 105);
-            this.txtLastName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLastName.Margin = new System.Windows.Forms.Padding(4);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(239, 30);
             this.txtLastName.TabIndex = 5;
@@ -116,7 +121,7 @@
             // 
             this.txtGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtGender.Location = new System.Drawing.Point(252, 214);
-            this.txtGender.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGender.Margin = new System.Windows.Forms.Padding(4);
             this.txtGender.Name = "txtGender";
             this.txtGender.Size = new System.Drawing.Size(239, 30);
             this.txtGender.TabIndex = 7;
@@ -137,7 +142,7 @@
             // 
             this.txtPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtPhoneNumber.Location = new System.Drawing.Point(741, 210);
-            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(239, 30);
             this.txtPhoneNumber.TabIndex = 15;
@@ -158,7 +163,7 @@
             // 
             this.txtCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtCity.Location = new System.Drawing.Point(741, 101);
-            this.txtCity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCity.Margin = new System.Windows.Forms.Padding(4);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(239, 30);
             this.txtCity.TabIndex = 13;
@@ -179,7 +184,7 @@
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtEmail.Location = new System.Drawing.Point(741, 155);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(239, 30);
             this.txtEmail.TabIndex = 11;
@@ -200,10 +205,11 @@
             // 
             this.txtCountry.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtCountry.Location = new System.Drawing.Point(741, 43);
-            this.txtCountry.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCountry.Margin = new System.Windows.Forms.Padding(4);
             this.txtCountry.Name = "txtCountry";
             this.txtCountry.Size = new System.Drawing.Size(239, 30);
             this.txtCountry.TabIndex = 9;
+            this.txtCountry.TextChanged += new System.EventHandler(this.txtCountry_TextChanged);
             // 
             // country
             // 
@@ -221,7 +227,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(867, 277);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 41);
             this.button1.TabIndex = 16;
@@ -233,7 +239,7 @@
             // 
             this.btnUserClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnUserClear.Location = new System.Drawing.Point(727, 277);
-            this.btnUserClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUserClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnUserClear.Name = "btnUserClear";
             this.btnUserClear.Size = new System.Drawing.Size(116, 41);
             this.btnUserClear.TabIndex = 17;
@@ -245,13 +251,17 @@
             // 
             this.btnUserCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnUserCancel.Location = new System.Drawing.Point(581, 277);
-            this.btnUserCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUserCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnUserCancel.Name = "btnUserCancel";
             this.btnUserCancel.Size = new System.Drawing.Size(116, 41);
             this.btnUserCancel.TabIndex = 18;
             this.btnUserCancel.Text = "Cancel";
             this.btnUserCancel.UseVisualStyleBackColor = true;
             this.btnUserCancel.Click += new System.EventHandler(this.btnUserCancel_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // UserInformation
             // 
@@ -277,10 +287,11 @@
             this.Controls.Add(this.age);
             this.Controls.Add(this.txtFirstName);
             this.Controls.Add(this.lastName);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UserInformation";
             this.Text = "UserInformation";
             this.Load += new System.EventHandler(this.UserInformation_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,5 +318,6 @@
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Button btnUserClear;
 		private System.Windows.Forms.Button btnUserCancel;
-	}
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+    }
 }
